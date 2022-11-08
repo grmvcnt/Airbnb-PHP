@@ -1,0 +1,43 @@
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    width: 200px;
+    height: 50%;
+    background-color: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 22px;
+    text-align: justify;
+    font-family: 'DM Sans', sans-serif;
+    transition: width 400ms ease;
+}
+
+.dropdown:hover{
+    cursor: pointer;
+    width: 383px;
+}
+
+
+.dropdown_title{
+    margin-left: 1em;
+    margin-right: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.arrow{
+    background-color: none;
+    border: none;
+    width: 2em;
+    height: 2em;
+    transform: rotate(-90deg);
+    transition: transform 400ms ease;
+  }
+
+  .dropdown:hover > .arrow{
+    transform: rotate(0deg);
+}
